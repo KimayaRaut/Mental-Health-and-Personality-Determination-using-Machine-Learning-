@@ -6,7 +6,8 @@ This project is a Flask-based web application designed to predict mental health 
 
 - **Personality Prediction:** Utilizes an XGBoost model with 70% accuracy, trained on the MBTI dataset.
 - **Mental Health Prediction:** Utilizes a sentiment analysis model with 95% accuracy to assess mental health status.
-
+  
+For more details, refer to the IEEE paper at [IEEE Xplore](https://ieeexplore.ieee.org/document/9836013).
 ## Dataset
 
 The dataset used for training the models is available on Kaggle: [MBTI Type Dataset](https://www.kaggle.com/datasets/datasnaek/mbti-type)
