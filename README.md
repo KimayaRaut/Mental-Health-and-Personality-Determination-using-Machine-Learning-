@@ -86,17 +86,17 @@ Enter the text input to get predictions for personality traits and mental health
 ### File Structure
 ```plaintext
 mental-health-personality-prediction/
-├── app.py                      # Flask application
-├── counter_vector.py           # Script for vectorization in the sentiment analysis model
-├── mbti_model.py               # Script to train and save the XGBoost model for personality prediction
-├── sentiment_model.py          # Script to train and save the XGBoost model for sentiment analysis
+├── app.py                     # Flask application
+├── counter_vector.py          # Script for vectorizing input text
+├── mbti_model.py              # Script to train and save the XGBoost model for personality prediction
+├── sentiment_model.py         # Script to train and save the XGBoost model for sentiment analysis
+├── dataset/
+│   ├── Twitter_Sentiment_Analysis.csv  # Dataset for sentiment analysis
+│   └── mbti_1.csv                     # Dataset for MBTI personality prediction
 ├── static/
 │   └── css/
-│       └── styles.css          # CSS file for styling
-├── templates/
-│   └── index.html              # HTML file for the frontend
-├── vectorizer.pkl              # Trained XGBoost vectorizer for personality prediction
-├── vectorizer1.pkl             # Trained XGBoost vectorizer for sentiment analysis
-├── requirements.txt            # Python package dependencies
-└── README.md                   # Project documentation
+│       └── styles.css         # CSS file for styling
+├── vectorizer1.pkl            # Vectorizer for sentiment analysis model
+├── vectorizer.pkl             # Vectorizer for MBTI model
+└── requirements.txt           # Python package dependencies
 ```
