@@ -24,7 +24,7 @@ The dataset used for training the models is available on Kaggle: [MBTI Type Data
 ### Step 1: Clone the Repository
 
 git clone https:[//github.com/yourusername/crop-forecasting.git
-cd crop-forecasting](https://github.com/KimayaRaut/Crop-Forecasting-Using-Machine-Learning-Random-Forest-Classifier.git)
+cd crop-forecasting](https://github.com/KimayaRaut/Mental-Health-and-Personality-Determination-using-Machine-Learning-.git)
 
 ### Step 2: Create a Virtual Environment
 Using virtualenv
